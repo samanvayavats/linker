@@ -1,11 +1,12 @@
 {
     "name": "@repo/types",
     "version": "0.0.0",
-    "main": "./src/index.ts",
-    "types": "./src/index.ts",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "private": true,
     "exports": {
-        ".": "./src/index.ts",
-        "./user":"./src/user/user.ts"
+        ".": "./dist/index.js",
+        "./user": "./dist/user/user.js"
     },
     "dependencies": {
         "zod": "^4.6.7"
