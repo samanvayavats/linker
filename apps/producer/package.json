@@ -1,0 +1,14 @@
+{
+  "name": "@repo/producer",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+     "@repo/typescript-config": "workspace: *",
+     "@repo/db":"workspace:*"
+  }
+}
